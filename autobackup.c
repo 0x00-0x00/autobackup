@@ -54,7 +54,7 @@ int main(int argc, char* argv[])
     p2.message = calloc(sizeof(char), BUFFER_SIZE);
 
     if (argc < 2) {
-        fprintf(stderr, "Uso: %s  -l <Data Folder>  -r <Backup Folder>\n", argv[0]);
+        fprintf(stderr, "Uso: %s  -l <Data Folder>  -r <Backup Folder> -i <SimplePush ID>\n", argv[0]);
         return 1;
     }
 
